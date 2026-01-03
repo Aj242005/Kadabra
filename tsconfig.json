@@ -3,7 +3,7 @@
   "include": [
     "src/**/*",
     "src"
-  ],
+, "index.ts"  ],
   "compilerOptions": {
     // File Layout
     "rootDir": "./src",
