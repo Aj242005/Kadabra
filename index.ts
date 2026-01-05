@@ -3,9 +3,11 @@ import express from 'express';
 const app = express();
 
 const port = process.env.PORT ?? 1008;
-
+app.use(express.json());
+app.use( )
 
 app.get('/v1/health',(req,res,next)=>{
+    
     console.log('health route explored');
     res.status(200).json({
         message: "working aaaaaassume ! ~_~ ! between you disturbed me ~~'Server'🔥🔥🔥",
