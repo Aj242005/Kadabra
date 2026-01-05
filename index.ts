@@ -1,12 +1,13 @@
 import 'dotenv/config'
 import express from 'express';
+import { rateLimiterMiddleWare } from './src/middlewares/rateLimiter.middle.js';
 const app = express();
+
 
 const port = process.env.PORT ?? 1008;
 app.use(express.json());
-app.use( )
 
-app.get('/v1/health',(req,res,next)=>{
+app.get('/v1/health',rateLimiterMiddleWare,(req,res,next)=>{
     
     console.log('health route explored');
     res.status(200).json({
