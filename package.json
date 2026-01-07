@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@types/axios": "^0.9.36",
+    "@types/cheerio": "^0.22.35",
     "@types/dotenv": "^6.1.1",
     "@types/ioredis": "^4.28.10",
     "@types/puppeteer": "^5.4.7",

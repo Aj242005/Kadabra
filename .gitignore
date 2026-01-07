@@ -1,3 +1,6 @@
 .env
 node_modules
 .dist
+
+sample.dump.useless.ts
+sample.dump.ts
