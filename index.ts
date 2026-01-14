@@ -39,7 +39,7 @@ app.get('/v1/health',(req,res,next)=>{
     
     console.log('health route explored');
     res.status(200).json({
-        message: "working aaaaaassume ! ~_~ ! between you disturbed me ~~'Server'🔥🔥🔥",
+        message: "working aaaaaawsome ! ~_~ ! between you disturbed me ~~'Server'🔥🔥🔥",
         status : 200
     })
 })
